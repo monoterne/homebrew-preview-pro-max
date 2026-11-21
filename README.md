@@ -1,6 +1,6 @@
 # Preview Pro Max for Homebrew
 
-Install on Apple silicon with macOS 15 or later.
+On Apple silicon, Homebrew installs the legacy build on macOS 11 Big Sur through macOS 15 Sequoia. It installs the adaptive build on macOS 26 Tahoe and later.
 
 ```sh
 brew tap monoterne/preview-pro-max

@@ -15,7 +15,7 @@ cask "preview-pro-max" do
   homepage "https://github.com/monoterne/PreviewProMax"
 
   depends_on arch: :arm64
-  depends_on macos: :sequoia
+  depends_on macos: :big_sur
 
   app "Preview Pro Max.app"
 end
