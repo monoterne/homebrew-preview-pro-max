@@ -1,12 +1,12 @@
 cask "preview-pro-max" do
-  version "0.2.2"
+  version "0.3"
 
   on_sequoia :or_older do
-    sha256 "aa138fc6820cb2b0b51801fe02d52788ced0ad83b926996fa696ba5378aed2a6"
+    sha256 "5c4aa0894138e12eb825fba88c9e43f17f08cf06562ad240c32a1ac43af58895"
     url "https://github.com/monoterne/PreviewProMax/releases/download/v#{version}/PreviewProMax-mac-legacy.app.zip"
   end
   on_tahoe :or_newer do
-    sha256 "7d5c9f7f241867ca369d015acf8f0375c7ec6fee67c8091532baa4ae3c415a61"
+    sha256 "b32019404839788afdc3c43865b44b6b7f1dc39e9f55d34a1061a8a0c48810da"
     url "https://github.com/monoterne/PreviewProMax/releases/download/v#{version}/PreviewProMax-mac-adaptive.app.zip"
   end
 
